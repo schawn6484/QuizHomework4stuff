@@ -1,0 +1,42 @@
+Rules for Quiz
+1. You'll have only <span>20 seconds</span> for each question.
+2. Once you select your answer, you can't reselect.
+3. You can't select any option once time elasped.
+4. You can't exit from the quiz while you're playing.
+5. You'll earn points based on correct answers.
+6. You'll lose points and time off timer.
+7. The highest scores will be stored.
+
+Quiz Questions
+1. What does HTML stand for?
+Hyper Text Preprocessor
+Hyper Text Markup Language
+Hyper Text Multiple Language
+Hyper Tool Markup Language
+
+2. What does CSS stand for?
+Colorful Style Sheet
+Common Style Sheet
+Computer Style Sheet
+Cascading Style Sheet
+
+3. Choose the correct HTML element for the largest heading:
+<h1>
+<head>
+<h6>
+<heading>
+
+4. What is the correct HTML element for inserting a line break?
+<br>
+<break>
+<line>
+<bk>
+
+5.Which character is used to indicate an end tag?
+*
+<
+/
+^
+
+
+
