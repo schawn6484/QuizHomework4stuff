@@ -3,3 +3,7 @@
 ![](images/Screen%20Shot%202020-10-24%20at%201.51.03%20PM.png)
 ![](images/Screen%20Shot%202020-10-24%20at%204.24.54%20PM.png)
 ![](images/Screen%20Shot%202020-10-24%20at%204.25.31%20PM.png)
+![](images/Screen%20Shot%202020-10-27%20at%2010.04.50%20AM.png)
+![](images/Screen%20Shot%202020-10-27%20at%2010.04.09%20AM.png)
+![](images/Screen%20Shot%202020-10-27%20at%2010.04.41%20AM.png)
+![](images/Screen%20Shot%202020-10-27%20at%2010.04.20%20AM.png)
