@@ -65,9 +65,10 @@ const timerEl = document.getElementById('time')
 const endEl = document.getElementById('end')
 const finalScoreEl =document.getElementById('final-score')
 const submitEl = document.getElementById('submit')
-var time = questions.length * 2;
+var time = questions.length * 10;
 var score = 0;
 var timerId;
+
 let shuffledQuestions, currentQuestionIndex
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -82,8 +83,6 @@ function startTimer(){
         endGame();
     }
 }
-
-
 
 function endGame()
 {
@@ -166,15 +165,6 @@ function clearStatusClass(element){
     element.classList.remove('correct')
     element.classList.remove('incorrect')
     
-
-}
-
-
-function incorrectQuestion(){
-
-}
-
-function allQuestionsAnswered(){
 
 }
 
