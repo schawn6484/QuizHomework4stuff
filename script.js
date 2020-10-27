@@ -65,7 +65,7 @@ const timerEl = document.getElementById('time')
 const endEl = document.getElementById('end')
 const finalScoreEl =document.getElementById('final-score')
 const submitEl = document.getElementById('submit')
-var time = questions.length * 10;
+var time = questions.length * 3;
 var score = 0;
 var timerId;
 
