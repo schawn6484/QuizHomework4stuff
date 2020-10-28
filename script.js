@@ -79,6 +79,7 @@ nextButton.addEventListener('click', () => {
 function startTimer(){
     time--;
     timerEl.textContent = time;
+
     if(time <= 0){
         endGame();
     }
@@ -137,6 +138,11 @@ function selectAnswer(e){
     const correct = selectedButton.dataset.correct
     if(correct){
         score+=1;
+    } else { time = time -2
+        
+    }
+    if (time > 10){
+        time = time -10
     }
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {

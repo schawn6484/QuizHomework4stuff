@@ -1,11 +1,9 @@
 Rules for Quiz
-1. You'll have only <span>100 seconds</span> to complete the quiz.
-2. Once you select your answer, you can't reselect.
-3. You can't select any option once time elasped.
-4. You can't exit from the quiz while you're playing.
-5. You'll earn points based on correct answers.
-6. You'll lose points and time off timer.
-7. The highest scores will be stored.
+1. You'll have only <span>15 seconds</span> to complete the quiz.
+2.  You can't exit from the quiz while you're playing.
+3. You'll earn points based on correct answers.
+4. You'll lose points and time off timer.
+5. The scores will be stored via local storage.
 
 Quiz Questions
 1. What does HTML stand for?
