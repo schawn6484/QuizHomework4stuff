@@ -1,3 +1,4 @@
+//Constant elements
 const questions = [
     {
         question:'What does HTML stand for?',
@@ -65,10 +66,13 @@ const timerEl = document.getElementById('time')
 const endEl = document.getElementById('end')
 const finalScoreEl =document.getElementById('final-score')
 const submitEl = document.getElementById('submit')
+
+//Variables
 var time = questions.length * 3;
 var score = 0;
 var timerId;
 
+//Button Events
 let shuffledQuestions, currentQuestionIndex
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -76,6 +80,7 @@ nextButton.addEventListener('click', () => {
     setNextQuestion()
 })
 
+//Timer function
 function startTimer(){
     time--;
     timerEl.textContent = time;
@@ -85,6 +90,7 @@ function startTimer(){
     }
 }
 
+//End Game Function
 function endGame()
 {
     clearInterval(timerId);
@@ -93,6 +99,7 @@ function endGame()
     finalScoreEl.textContent = score;
 }
 
+//Start Game Function
 function startGame(){
 //console.log('Started')
 startButton.classList.add('hide')
@@ -105,12 +112,13 @@ setNextQuestion();
 
 }
 
+//Random Question Selector
 function setNextQuestion(){
 resetState()   
 showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
-
+//Show Question
 function showQuestion(question){
     questionElement.innerText = question.question
     question.answers.forEach(answer =>{
@@ -125,6 +133,7 @@ function showQuestion(question){
     })
 }
 
+//Answer Button
 function resetState(){
     nextButton.classList.add('hide')
     while(answerButtonsElement.firstChild){
@@ -133,17 +142,18 @@ function resetState(){
     }
 }
 
+//Incorrect Deduction
 function selectAnswer(e){
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
     if(correct){
         score+=1;
-    } else { time = time -2
-        
+    } else { 
+        if (time > 2){
+            time =time -2;
+        }
     }
-    if (time > 2){
-        time = time -2
-    }
+
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
