@@ -141,8 +141,8 @@ function selectAnswer(e){
     } else { time = time -2
         
     }
-    if (time > 10){
-        time = time -10
+    if (time > 2){
+        time = time -2
     }
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
