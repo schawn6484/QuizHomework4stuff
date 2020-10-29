@@ -190,7 +190,8 @@ function scoreStorage(){
     localStorage.setItem('score', JSON.stringify({
         score: score,
         name: initialEl.value
-    }))
+    }));
+    window.location.replace("./score.html");
 }
 
 submitEl.onclick = scoreStorage;

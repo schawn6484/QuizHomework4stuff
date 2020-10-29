@@ -33,6 +33,7 @@ body{
 }
 
 /*Buttons*/
+
 .btn {
     border: 1px solid pink;
     color:#ffffff;
@@ -69,4 +70,12 @@ body{
     top: 10px;
     right: 10px;
   }
+  
+
+  .nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
   
