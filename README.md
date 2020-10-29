@@ -15,3 +15,6 @@ The Javascript was the logic of the quiz, which included timer, local storage an
 ![](images/Screen%20Shot%202020-10-27%20at%2010.04.41%20AM.png)
 ![](images/Screen%20Shot%202020-10-27%20at%2010.04.20%20AM.png)
 ![](images/Screen%20Shot%202020-10-27%20at%2011.54.51%20PM.png)
+![](images/Screen%20Shot%202020-10-29%20at%208.47.32%20AM.png)
+![](images/Screen%20Shot%202020-10-29%20at%208.47.43%20AM.png)
+![](images/Screen%20Shot%202020-10-29%20at%208.48.02%20AM.png)
