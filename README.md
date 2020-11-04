@@ -12,37 +12,6 @@ Rules for Quiz
 4. You'll lose points and time off timer.
 5. The scores will be stored via local storage.
 
-Quiz Questions
-1. What does HTML stand for?
-Hyper Text Preprocessor
-Hyper Text Markup Language
-Hyper Text Multiple Language
-Hyper Tool Markup Language
-
-2. What does CSS stand for?
-Colorful Style Sheet
-Common Style Sheet
-Computer Style Sheet
-Cascading Style Sheet
-
-3. Choose the correct HTML element for the largest heading:
-<h1>
-<head>
-<h6>
-<heading>
-
-4. What is the correct HTML element for inserting a line break?
-<br>
-<break>
-<line>
-<bk>
-
-5. Which character is used to indicate an end tag?
-*
-<
-/
-^
-
 ![](images/Screen%20Shot%202020-10-19%20at%202.02.02%20PM.png)
 ![](images/Screen%20Shot%202020-10-24%20at%201.51.03%20PM.png)
 ![](images/Screen%20Shot%202020-10-24%20at%204.24.54%20PM.png)
